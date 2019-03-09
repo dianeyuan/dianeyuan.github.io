@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    background:#cbf1f5;
+    font-family: 'Segoe UI', 'Lato', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    
+}
+
+/* horizontal line */
+hr.star-dark {
+    max-width: 15rem;
+    padding: 0;
+    text-align: center;
+    border: none;
+    border-top: solid 0.25rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr.star-dark:after {
+    position: relative;
+    top: -.8em;
+    display: inline-block;
+    padding: 0 0.25em;
+    content: '\f005';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 2em;
+}
+
+hr.star-dark {
+    border-color: #2C3E50;
+}
+
+hr.star-dark:after {
+    color: #2C3E50;
+    background-color: #cbf1f5;
+}
+
+.container {
+    margin: 5% auto;
+}
+
+.card-deck {
+    margin: 3%;
+}
+
+
+.profile-img {
+    max-width: 90%;
+    height: auto;
+    float: left;
+}
+
+.about {
+    padding: 2% 8%;
+}
+
+/* icon */
+.icon-row {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.footer {
+    background-color: #393e46;
+    text-align: center;    
+    padding: 1rem;
+    color: white;
+  }
